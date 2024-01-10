@@ -1,4 +1,7 @@
-`docker-compose build  `
+# Prepare
+
+
+`docker-compose build`
 
 `docker-compose run --rm web-app sh`
 
@@ -9,3 +12,6 @@
 `python manage.py migrate`
 
 `python manage.py createsuperuser`
+
+# Up project
+`docker-compose up`
